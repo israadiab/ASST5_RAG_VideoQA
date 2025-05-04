@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation (RAG) for Video Question Answering
 
-This project implements a **Video Question Answering (Video QA)** system that supports different retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8). The system can be used on [**Streamlit**]([url](https://5psv8svkhkwcn99b8zkguh.streamlit.app/))
+This project implements a **Video Question Answering (Video QA)** system that supports different retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8).
 
 ***Retrieval methods supported***:
 - **FAISS**: Fast semantic search using vector similarity (Semantic Search)
@@ -36,4 +36,5 @@ This project implements a **Video Question Answering (Video QA)** system that su
 - Indexes (ivfflat and hnsw) should be created on the embedding column for efficient semantic search.
 - If you don’t have access to the Supabase database, the FAISS, TF-IDF, and BM25 retrieval methods will still work locally.
 
-
+## Streamlit App
+https://5psv8svkhkwcn99b8zkguh.streamlit.app/
