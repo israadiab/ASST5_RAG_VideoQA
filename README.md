@@ -1,4 +1,4 @@
-# Retrieval-Augmented Generation (RAG) for Video Question Answering
+# [Retrieval-Augmented Generation (RAG) for Video Question Answering]([url](https://5psv8svkhkwcn99b8zkguh.streamlit.app/))
 
 This project implements a **Video Question Answering (Video QA)** system that supports different retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8). 
 
