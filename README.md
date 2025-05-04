@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation (RAG) for Video Question Answering
 
-This project implements a **Video Question Answering (Video QA)** system that supports multiple retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8). 
+This project implements a **Video Question Answering (Video QA)** system that supports different retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8). 
 
 ***Retrieval methods supported***:
 - **FAISS**: Fast semantic search using vector similarity (Semantic Search)
