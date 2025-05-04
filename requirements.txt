@@ -1,0 +1,10 @@
+streamlit
+numpy
+faiss-cpu
+sentence-transformers
+scikit-learn
+rank-bm25
+supabase
+postgrest-py
+python-dotenv
+psycopg2-binary
