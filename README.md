@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation (RAG) for Video Question Answering
 
-This project implements a **Video Question Answering (Video QA)** system that supports multiple retrieval techniques to answer user queries based on a seminar video. 
+This project implements a **Video Question Answering (Video QA)** system that supports multiple retrieval techniques to answer user queries based on [this video](https://www.youtube.com/watch?v=dARr3lGKwk8). 
 
 ***Retrieval methods supported***:
 - **FAISS**: Fast semantic search using vector similarity (Semantic Search)
@@ -11,7 +11,15 @@ This project implements a **Video Question Answering (Video QA)** system that su
 ---
 
 ## Project Structure
-├── app.py # Streamlit app ├── data_ingestion_pipeline.ipynb # Preprocessing and data preparation notebook ├── faiss.index # FAISS index for semantic retrieval ├── full_transcript.txt # Raw video transcript ├── image_embeddings.npy # For future work (currently unused) ├── text_embeddings.npy # Sentence embeddings for transcript chunks ├── transcript.json # Processed transcript chunks ├── upload_embeddings_to_supabase.py # Script to upload embeddings to Supabase ├── frames/ # Video frames (if used)
+- app.py # Streamlit app
+- data_ingestion_pipeline.ipynb # Preprocessing and data preparation notebook
+- faiss.index # FAISS index for semantic retrieval
+- full_transcript.txt # Raw video transcript
+- image_embeddings.npy # For future work (currently unused)
+- text_embeddings.npy # Sentence embeddings for transcript chunks
+- transcript.json # Processed transcript chunks
+- upload_embeddings_to_supabase.py # Script to upload embeddings to Supabase
+- frames/ # Video frames (if used later)
 
 ## Install dependencies
 pip install -r requirements.txt
