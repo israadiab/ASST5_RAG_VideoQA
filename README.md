@@ -21,7 +21,12 @@ This project implements a **Video Question Answering (Video QA)** system that su
 - upload_embeddings_to_supabase.py *Script to upload embeddings to Supabase*
 - frames/ *Video frames (if used later)*
 
+## Streamlit App
+The app is deployed on streamlite and available on the below link.
+https://5psv8svkhkwcn99b8zkguh.streamlit.app/
+
 ## Run the Streamlit App
+if you are interested to run the app locally, you should:
 1. Clone the repository
 2. Install requirements
    ```bash
@@ -29,12 +34,13 @@ This project implements a **Video Question Answering (Video QA)** system that su
 4. Run the streamlit app
    ```bash
    streamlit run app.py
+5. Make sure to change the paths of the files used.
 
 ## PostgreSQL / Supabase Requirement
 - To use the PostgreSQL pgvector retrieval option, you must have a [Supabase]([url](https://supabase.com/)) project set up.
 - The transcript_chunks table must be populated with the transcript chunks and their embeddings.
 - Indexes (ivfflat and hnsw) should be created on the embedding column for efficient semantic search.
 - If you don’t have access to the Supabase database, the FAISS, TF-IDF, and BM25 retrieval methods will still work locally.
+- Make sure to change the # Supabase credentials (url and key) to your own
 
-## Streamlit App
-https://5psv8svkhkwcn99b8zkguh.streamlit.app/
+
